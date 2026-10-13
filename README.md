@@ -13,11 +13,14 @@
 
 ---
 
-## 👥 Student & Course Information
-* **Institution:** Escuela Superior de Cómputo (ESCOM) — Instituto Politécnico Nacional (IPN)
-* **Course:** Database Systems (*Bases de Datos*)
-* **Student:** Fernando García Verduzco (\FERVERDZ18\)
-* **Associated Team Repository:** [jcmj3256-collab/Practica_2](https://github.com/jcmj3256-collab/Practica_2)
+## 👥 Team Members & Contribution Breakdown
+* **Fernando García Verduzco** (\@FERVERDZ18\)
+  - Static landing page layout and multi-platform CDN deployments (GitHub Pages, Vercel, Netlify).
+  - Theoretical framework research (\investigacion.md\) and comparative analysis (\comparacion.md\).
+  - Backend technology proposal: Python / FastAPI (\lenguajes/lenguaje-FERVERDZ18.md\).
+* **José Carlos Muñoz Jaimes** (\@jcmj3256-collab\)
+  - Architecture and network payload audit of the assigned seismic project (\identificacion.md\).
+  - Backend technology proposal: Node.js / Express (\lenguajes/lenguaje-jcmj3256-collab.md\).
 
 ---
 
@@ -26,7 +29,7 @@ This repository contains the deliverables for **Practice 3.1**, focused on stati
 
 ### Scope and Current State
 - **Current Status:** Static landing page deployed across three CDN platforms, comprehensive documentation on client-server architecture, database connection protocols, and technical assessment of the assigned seismic visualization project.
-- **Next Steps:** Implementation of the backend microservice using Python (FastAPI) and PostgreSQL 17, relational model migration, and interactive REST API endpoints.
+- **Next Steps:** Implementation of the backend microservice, relational model migration, and interactive REST API endpoints.
 
 ---
 
@@ -35,7 +38,6 @@ This repository contains the deliverables for **Practice 3.1**, focused on stati
 ### Prerequisites
 - A modern web browser (Google Chrome, Mozilla Firefox, Brave, Microsoft Edge).
 - Git installed on your system.
-- Optional: Python 3.x or the *Live Server* extension in Visual Studio Code.
 
 ### Step-by-Step Execution
 
@@ -55,13 +57,14 @@ This repository contains the deliverables for **Practice 3.1**, focused on stati
 \\\	ext
 Practica3.1/
 ├── docs/
-│   └── index.html               # Main landing page for static hosting
+│   └── index.html                     # Main landing page for static hosting
 ├── lenguajes/
-│   └── lenguaje-FERVERDZ18.md   # Individual backend language justification (Python/FastAPI)
-├── investigacion.md             # Theoretical framework on Web, APIs, DNS, HTTPS & Hosting (APA 7th)
-├── identificacion.md            # Architecture audit of the assigned Seismic Data System
-├── comparacion.md               # Comparative analysis across GitHub Pages, Vercel & Netlify
-└── README.md                    # Project overview, deployment links and instructions (English)
+│   ├── lenguaje-FERVERDZ18.md         # Individual backend language proposal (Python/FastAPI)
+│   └── lenguaje-jcmj3256-collab.md    # Individual backend language proposal (Team member)
+├── investigacion.md                   # Theoretical framework on Web, APIs, DNS, HTTPS & Hosting (APA 7th)
+├── identificacion.md                  # Architecture audit of the assigned Seismic Data System
+├── comparacion.md                     # Comparative analysis across GitHub Pages, Vercel & Netlify
+└── README.md                          # Project overview, deployments and instructions (English)
 \\\
 
 ---
@@ -70,4 +73,4 @@ Practica3.1/
 * **[\investigacion.md\](investigacion.md):** Theoretical paper covering frontend vs backend execution sandboxes, HTTP request lifecycles (DNS, TCP, TLS, DOM/CSSOM render paths), database direct connection risks, and hosting categories.
 * **[\identificacion.md\](identificacion.md):** Analysis of the assigned *Seismic Data Visualization System* project, mapping frontend/backend directory structures, database driver usage (\pg\), network payloads, and static-only deployment impacts.
 * **[\comparacion.md\](comparacion.md):** Benchmark matrix comparing deployment workflows, speeds, HTTPS configurations, CI/CD integrations, and quota limitations between GitHub Pages, Vercel, and Netlify.
-* **[\lenguajes/lenguaje-FERVERDZ18.md\](lenguajes/lenguaje-FERVERDZ18.md):** Architectural proposal for the clinical database backend using Python, FastAPI, and SQLAlchemy 2.0 (AsyncIO).
+* **[\lenguajes/lenguaje-FERVERDZ18.md\](lenguajes/lenguaje-FERVERDZ18.md):** Architectural proposal for the clinical database backend using Python, FastAPI, and SQLAlchemy 2.0.
